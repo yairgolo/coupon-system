@@ -1,0 +1,27 @@
+.CouponDetails > img {
+	height: 200px;
+}
+
+.CouponDetails > a {
+    color: black;
+}
+
+.CouponDetails {
+    color: black;
+}
+
+.CouponDetails .Box {
+    width: 300px;
+}
+
+.CouponDetails .btn {
+    width: 100%;
+    background: none;
+    border: 5px solid #103070c1;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 12px 0;
+	margin-top: 20px;
+}

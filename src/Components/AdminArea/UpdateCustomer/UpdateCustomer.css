@@ -1,0 +1,31 @@
+.UpdateCustomer > form {
+	width: 400px;
+    text-align: left;
+}
+
+.UpdateCustomer input, .UpdateCustomer button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.UpdateCustomer h2 {
+    text-align: center;
+}
+
+.UpdateCustomer span {
+    position: absolute;
+    color: red;
+    margin: 0 20px;
+}
+
+.UpdateCustomer .btn {
+    width: 100%;
+    background: rgba(67, 247, 67, 0.642);
+    border: 2px solid #466dd7c1;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}

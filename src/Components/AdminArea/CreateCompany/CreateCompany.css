@@ -1,0 +1,31 @@
+.CreateCompany > form {
+	width: 400px;
+    text-align: left;
+}
+
+.CreateCompany input, .CreateCompany button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.CreateCompany h2 {
+    text-align: center;
+}
+
+.CreateCompany span {
+    position: absolute;
+    color: red;
+    margin: 0 20px;
+}
+
+.CreateCompany .btn {
+    width: 100%;
+    background: rgba(67, 247, 67, 0.642);
+    border: 2px solid #466dd7c1;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}

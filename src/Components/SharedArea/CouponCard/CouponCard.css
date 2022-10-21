@@ -1,0 +1,64 @@
+/* .CouponCard {
+	border: apx solid black;
+    box-shadow: 10px 10px 10px rgb(230, 107, 107);
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(rgb(69, 182, 220), rgb(110, 245, 243));
+    overflow: auto;
+    width: 150px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    background-size: cover;
+    position: relative;
+}
+
+.CouponCard img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.CouponCard > button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    transform: scale(1.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CouponCard .Box {
+    align-items: center;
+} */
+
+.CouponCard.Box {
+    width: 370px;
+    display: inline-flex;
+    align-items: center;
+    background-image: linear-gradient(rgb(69, 182, 220), rgb(110, 245, 243));
+    font-family: Arial;
+}
+
+.CouponCard img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.CouponCard > div:last-child {
+    margin-left: auto;
+}
+
+.CouponCard > div {
+    color: black;
+}
